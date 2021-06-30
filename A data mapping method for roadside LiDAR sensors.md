@@ -39,11 +39,11 @@
 假设参考点个数为m，矩阵A表示LiDAR采集到的(x, y, z)信息，矩阵B表示变换后的(x, y, z)信息，可以用(x, y,  z)表示，超定系统可以表示为![image-20210531151314479](https://user-images.githubusercontent.com/71913439/123905189-6eb2af00-d9a4-11eb-85bf-22146fd046ba.png)
 
 其中
+![image-20210531151455353](https://user-images.githubusercontent.com/71913439/123905412-dff26200-d9a4-11eb-963b-39b285b25ca8.png)![image-20210531151621801](https://user-images.githubusercontent.com/71913439/123905442-f00a4180-d9a4-11eb-8c6f-2339d0ed0c33.png)
+![image-20210531151621801](https://user-images.githubusercontent.com/71913439/123905451-f4365f00-d9a4-11eb-8dc5-9cdda083d115.png)
 
-![image-20210531151314479](https://user-images.githubusercontent.com/71913439/123905207-78d4ad80-d9a4-11eb-83a4-011018d0825a.png)![image-20210531151314479](https://user-images.githubusercontent.com/71913439/123905220-7d00cb00-d9a4-11eb-868f-2b28206d7a6c.png)
 
 
-![image-20210531151314479](https://user-images.githubusercontent.com/71913439/123905234-82f6ac00-d9a4-11eb-897f-c81688e33537.png)
 
 
 #### 激光雷达坐标转换
