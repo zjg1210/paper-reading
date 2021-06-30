@@ -12,7 +12,8 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190418085024305.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzYzNzQ5MA==,size_16,color_FFFFFF,t_70)
 
-大地坐标系以纬度B、经度L、大地高H描述一点的空间位置。纬度的定义是某点的地面法线与赤道面的夹角，以赤道面为起算点，向南为负，范围为-90°~0°，向北为正，范围为0°~90°；经度L由起始大地子午面起算，向东为正，向西为负，范围是-180°~180°。某点沿法线到椭球面的距离称为该点的大地高H。
+大地坐标系以纬度B、经度L、大地高H描述一点的空间位置。纬度的定义是某点的地面法线与赤道面的夹角，以赤道面为起算点，向南为负，
+范围为-90°~0°，向北为正，范围为0°~90°；经度L由起始大地子午面起算，向东为正，向西为负，范围是-180°~180°。某点沿法线到椭球面的距离称为该点的大地高H。
 
 参心空间直角坐标系以椭球中心O为坐标原点，以起始子午面与赤道面的交线为X轴，在赤道面上与X轴正交的方向为Y轴，椭球的旋转轴为Z轴，三个方向呈右手系。
 
@@ -36,11 +37,15 @@
 
 最小二乘
 
-假设参考点个数为m，矩阵A表示LiDAR采集到的(x, y, z)信息，矩阵B表示变换后的(x, y, z)信息，可以用(x, y,  z)表示，超定系统可以表示为![image-20210531151314479](https://user-images.githubusercontent.com/71913439/123905189-6eb2af00-d9a4-11eb-85bf-22146fd046ba.png)
+假设参考点个数为m，矩阵A表示LiDAR采集到的(x, y, z)信息，矩阵B表示变换后的(x, y, z)信息，可以用(x, y,  z)表示，超定系统可以表示为![image-20210531151428129](https://user-images.githubusercontent.com/71913439/123905548-23e56700-d9a5-11eb-9032-1a69390e245b.png)
+
+
 
 其中
 ![image-20210531151455353](https://user-images.githubusercontent.com/71913439/123905412-dff26200-d9a4-11eb-963b-39b285b25ca8.png)![image-20210531151621801](https://user-images.githubusercontent.com/71913439/123905442-f00a4180-d9a4-11eb-8c6f-2339d0ed0c33.png)
-![image-20210531151621801](https://user-images.githubusercontent.com/71913439/123905451-f4365f00-d9a4-11eb-8dc5-9cdda083d115.png)
+
+![image-20210531152039711](https://user-images.githubusercontent.com/71913439/123905492-07e1c580-d9a5-11eb-8b55-05f7a06bf293.png)
+
 
 
 
